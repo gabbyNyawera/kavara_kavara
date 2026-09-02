@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" fill="none" role="img" aria-label="Illustration of palm trees, a striped umbrella and two chairs beside a pool, with a painted sign reading 'It starts with the fire. Everything else falls into place.'">
+  <!-- background wash -->
+  <rect width="900" height="520" fill="#F7F3EA"/>
+  <!-- sun -->
+  <circle cx="760" cy="90" r="46" fill="#EFE7D6"/>
+  <!-- palms -->
+  <g stroke="#123524" stroke-width="2.2" stroke-linecap="round">
+    <path d="M150 470 C160 380 158 300 152 210"/>
+    <path d="M152 210 C120 188 88 190 66 210 M152 210 C185 186 220 192 240 212 M152 210 C132 172 138 138 158 120 M152 210 C172 172 198 156 230 160 M152 210 C118 178 88 166 60 176"/>
+  </g>
+  <g stroke="#123524" stroke-width="2.2" stroke-linecap="round">
+    <path d="M560 470 C550 380 552 300 558 210"/>
+    <path d="M558 210 C590 188 622 190 644 210 M558 210 C525 186 490 192 470 212 M558 210 C540 172 534 138 514 120 M558 210 C538 172 512 156 480 160 M558 210 C592 178 622 166 650 176"/>
+  </g>
+  <!-- umbrella (striped) -->
+  <g stroke="#123524" stroke-width="2">
+    <path d="M350 250 V390" stroke-width="2.5"/>
+    <path d="M228 258 Q350 130 472 258 Z" fill="#FAF7F1"/>
+    <path d="M228 258 Q350 130 472 258 Z" fill="url(#umbrellaStripes)"/>
+    <path d="M228 258 L350 140 L472 258" stroke-width="1.6"/>
+    <path d="M290 258 Q350 190 410 258" stroke-width="1.6"/>
+    <path d="M350 140 Q350 210 350 250" stroke-width="1.6"/>
+    <path d="M350 390 V410" stroke-width="2"/>
+  </g>
+  <defs>
+    <pattern id="umbrellaStripes" width="26" height="140" patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <rect width="13" height="140" fill="#123524"/>
+      <rect x="13" width="13" height="140" fill="#F7F3EA"/>
+    </pattern>
+  </defs>
+  <!-- chairs -->
+  <g stroke="#123524" stroke-width="2">
+    <path d="M250 392 h44 v-34 h-44 z M250 358 v-38 h44 v38 M256 392 v24 M288 392 v24"/>
+    <path d="M392 392 h44 v-34 h-44 z M392 358 v-38 h44 v38 M398 392 v24 M430 392 v24"/>
+  </g>
+  <!-- pool -->
+  <g stroke="#123524" stroke-width="2">
+    <ellipse cx="355" cy="452" rx="235" ry="40" fill="#EAF1EC"/>
+    <path d="M160 449 q60 -16 120 0 t120 0 t120 0" stroke-width="1.6"/>
+    <path d="M180 460 q55 -12 110 0" stroke-width="1.2"/>
+  </g>
+  <!-- little table between chairs -->
+  <g stroke="#123524" stroke-width="2">
+    <line x1="312" y1="392" x2="312" y2="366"/>
+    <line x1="392" y1="392" x2="392" y2="366"/>
+    <line x1="292" y1="366" x2="412" y2="366"/>
+  </g>
+  <!-- fire at lower right -->
+  <g stroke="#123524" stroke-width="2.2" stroke-linecap="round">
+    <path d="M700 440 l-14 -11 v-7 l11 -7 v-8 l8 -5 l8 5 v8 l11 7 v7 z" fill="#F7F3EA"/>
+    <path d="M705 409 c5 -11 -2 -18 -5 -24 c6 5 10 11 8 20" stroke-width="2"/>
+    <!-- smoke -->
+    <path d="M700 400 q-8 -18 4 -28 M695 402 q-6 -14 2 -22" stroke-width="1.5"/>
+  </g>
+  <!-- Painted sign anchored to the tree: emotional statement inside the artwork -->
+  <g>
+    <g stroke="#5b3d21" stroke-width="3" stroke-linecap="round">
+      <path d="M418 150 C470 108 520 108 560 160"/>
+    </g>
+    <g transform="rotate(6 490 180)">
+      <rect x="400" y="150" width="172" height="118" rx="6" fill="#EAD7B8" stroke="#123524" stroke-width="2"/>
+      <rect x="408" y="158" width="156" height="102" rx="4" fill="none" stroke="#123524" stroke-width="1"/>
+      <text x="486" y="196" text-anchor="middle" font-family="Yellowtail, cursive" font-size="30" fill="#123524">It starts</text>
+      <text x="486" y="224" text-anchor="middle" font-family="Yellowtail, cursive" font-size="30" fill="#123524">with the fire.</text>
+      <text x="486" y="252" text-anchor="middle" font-family="Yellowtail, cursive" font-size="22" fill="#3F6B4F">everything else falls into place</text>
+    </g>
+  </g>
+  <!-- birds -->
+  <g stroke="#123524" stroke-width="1.5" stroke-linecap="round">
+    <path d="M80 80 q10 -8 20 0 q10 -8 20 0"/>
+    <path d="M120 60 q8 -7 16 0 q8 -7 16 0"/>
+  </g>
+</svg>
