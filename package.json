@@ -1,0 +1,26 @@
+{
+  "name": "kavara-kavara",
+  "version": "1.0.0",
+  "description": "Outdoor Food Culture ",
+  "keywords": [
+    "Outdoor",
+    "Food",
+    "Culture"
+  ],
+  "homepage": "https://github.com/gabbyNyawera/kavara_kavara#readme",
+  "bugs": {
+    "url": "https://github.com/gabbyNyawera/kavara_kavara/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabbyNyawera/kavara_kavara.git"
+  },
+  "license": "ISC",
+  "author": "Gabe",
+  "type": "commonjs",
+  "main": "serve.js",
+  "scripts": {
+    "start": "node serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
